@@ -1,0 +1,127 @@
+@media (max-width: 820px) {
+  .name-sub {
+    /* nav bar */
+    display: none;
+  }
+  /* info-job */
+  /* grid layout cho container */
+  #job-info .container {
+    /* display: grid;
+    grid-template-columns: repeat(2, 343px);
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 30px 50px;
+    justify-content: center; */
+    display: block;
+    column-count: 2;
+    column-gap: 20px;
+  }
+  /* grid layout trong mỗi section  */
+  .section-content {
+    /* display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 86.5px 1fr;
+    border: 1px solid #d7d7d7;
+    padding: 60px 30px;
+    gap: 20px; */
+    /* height: fit-content; */
+    /* position: relative; */
+    break-inside: avoid;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  /* .section-edu,
+  .section-act {
+    grid-template-rows: repeat(auto-fill, minmax(120px, 4fr));
+  }
+  .section-lang,
+  .section-skill {
+    grid-template-rows: repeat(auto-fill, minmax(50px, 4fr));
+  } */
+  /* .section-act {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .section-edu {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    top: -200px;
+  }
+  .section-skill {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .section-lang {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    top: -75px;
+  }
+  .section-hobby {
+    top: -200px;
+  }
+  .content-lag,
+  .content-skill {
+    position: relative;
+    top: -10px;
+  }
+  .content-edu,
+  .content-act {
+    position: relative;
+    top: -20px;
+  } */
+
+  /* BEGIN certificate */
+  .container-detail-cert {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+  }
+  .img-cert {
+    width: 300px;
+  }
+  /* BEGIN project */
+  .container-prj {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .border-prj {
+    width: 100%;
+  }
+  .table {
+    height: 605px;
+  }
+  .spc-height-table {
+    height: 629px;
+  }
+  .img-prj {
+    width: 100%;
+  }
+  .info-prj {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 10px;
+  }
+  .time-prj {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .pos-prj {
+    grid-column: 2/3;
+  }
+  /* BEGIN footer */
+  /* PROJECT-CHARTER */
+  .prj-cht-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .detail-scope {
+    display: flex;
+    flex-direction: column;
+  }
+  #goals .block-icon {
+    padding: 0 10px;
+  }
+}

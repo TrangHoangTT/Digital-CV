@@ -1,0 +1,70 @@
+@media (max-width: 500px) {
+  /* Banner */
+  .text-content {
+    width: 100%;
+    text-align: center;
+  }
+  /* Nav */
+  nav.container,
+  #about .container-fluid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  /* about */
+  #target,
+  #personal-info {
+    width: 100%;
+  }
+  /* info-job */
+
+  #job-info .container {
+    display: flex !important;
+    flex-direction: column;
+
+    width: 100%;
+  }
+  /* certificate */
+  #certificate .container {
+    max-width: 500px;
+  }
+  .container-cert {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+    width: 100%;
+  }
+  .border-y {
+    grid-row: 2/3;
+  }
+  .border-x {
+    grid-row: 4/5;
+  }
+  .border-y,
+  .border-x {
+    background-color: #d6c08d;
+    height: 1px;
+    width: 100%;
+  }
+  /* project  */
+  #project .container {
+    max-width: 500px;
+  }
+  #project .container-prj {
+    display: flex;
+    flex-direction: column;
+  }
+  #project .info-prj {
+    display: flex;
+    flex-direction: column;
+  }
+  .bgr-time-prj {
+    width: 15%;
+  }
+  #project .table {
+    height: fit-content;
+  }
+  /* Footer */
+  #footer span {
+    display: none;
+  }
+}
